@@ -27,9 +27,20 @@ body{
     padding: 16px 34px;
     border: none;
 }
+.primary-title{
+    color: var(--title-black);
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.primary-info{
+    color: var(--info-grey);
+    font-size: 1rem;
+    margin: 1.8rem 0rem;
+}
 
 /* <!-- Header section starts here  --> */
-header{
+header , main{
     max-width: 1440px;
     width: 80%;
     margin: 60px auto;
@@ -116,11 +127,19 @@ nav{
     background-color: var(--secondary-color);
     border: none;
 }
-
 /* <!-- Header section ends here  --> */
 
 
 /* <!-- Main section starts here  --> */
+
+/* Tour blog section  */
+.tour-blog-container{
+    display: flex;
+    gap: 3rem;
+}
+.tour-blog ul li{
+    color: var(--info-grey);
+}
 /* <!-- Main section ends here  --> */
 
 
