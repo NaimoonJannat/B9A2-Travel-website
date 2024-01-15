@@ -1,0 +1,5 @@
+@media (max-width: 600px){
+    nav , .nav-menu ul{
+        flex-direction: column;
+    }
+}

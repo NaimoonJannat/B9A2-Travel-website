@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Mulish:wght@400;700;800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Color themes  */
+
+:root{
+    --primary-color: #f84d4d;
+    --secondary-color: #FFF;
+    --title-black: #131318;
+    --info-grey: #5A5A5D;
+}
+
+/* <!-- Header section starts here  --> */
+header{
+    max-width: 1440px;
+    width: 80%;
+    margin: 60px auto;
+}
+
+/* Navigation section  */
+nav{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--title-black);
+} 
+
+.nav-logo-box img{
+    width: 40%;
+}
+.nav-title{
+    font-family: 'Marck Script', cursive;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.primary-span{
+    color: var(--primary-color);
+}
+.nav-menu{
+    font-size: 1rem;
+}
+.nav-menu ul{
+    display: flex;
+    gap: 2.8rem;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menu ul li{
+    list-style: none;
+}
+.nav-menu ul li a{
+    color: #424247;
+    text-decoration: none;
+}
+#home{
+    color: var(--primary-color);
+}
+
+
+
+/* <!-- Header section ends here  --> */
+
+
+/* <!-- Main section starts here  --> */
+/* <!-- Main section ends here  --> */
+
+
+/* <!-- Footer section starts here  --> */
+/* <!-- Footer section ends here  --> */
