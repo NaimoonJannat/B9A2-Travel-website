@@ -30,4 +30,7 @@
     .grid-item img , .grid-item{
         height: 11rem;
     }
+    .country{
+        font-size: 1.2rem;
+    }
 }

@@ -155,6 +155,7 @@ nav{
 }
 
 .grid-item {
+    position: relative;
     width: 100%;
     height: auto;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), lightgray 50% / cover no-repeat;
@@ -186,6 +187,14 @@ nav{
     height: 100%;
     object-fit: cover;
     border-radius: 16px;
+}
+.country {
+    font-size: 2rem;
+    font-weight: 700;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: var(--secondary-color);
 }
 /* <!-- Main section ends here  --> */
 
