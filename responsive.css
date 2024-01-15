@@ -2,4 +2,14 @@
     nav , .nav-menu ul{
         flex-direction: column;
     }
+    .first-banner-item-container{
+        padding: 2rem 1rem;
+    }
+    .first-banner-title{
+        font-size: 2rem;
+    }
+    .where-to-form>form{
+        flex-direction: column;
+        gap: 1rem;
+    }
 }

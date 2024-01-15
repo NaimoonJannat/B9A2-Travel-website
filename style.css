@@ -17,6 +17,17 @@ body{
     --info-grey: #5A5A5D;
 }
 
+/* Shared things  */
+
+.primary-btn{
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 1rem;
+    padding: 16px 34px;
+    border: none;
+}
+
 /* <!-- Header section starts here  --> */
 header{
     max-width: 1440px;
@@ -64,7 +75,47 @@ nav{
     color: var(--primary-color);
 }
 
+/* First banner  */
 
+.first-banner{
+    margin-top: 3.8rem;
+    background-image: url(./Images/banner1.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-size: cover; 
+    background-position: center;
+}
+.first-banner-item-container{
+    border-radius: 16px;
+    color: var(--secondary-color);
+    text-align: center;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    padding: 100px 185px;
+    background-size: cover; 
+    background-position: center;
+}
+.first-banner-title{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.first-banner-info{
+    font-size: 1rem;
+    margin: 24px auto 64px;
+}
+
+.where-to-form>form{
+    padding: 1rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    justify-content: space-around;
+}
+.where-to-form input{
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: var(--secondary-color);
+    border: none;
+}
 
 /* <!-- Header section ends here  --> */
 
