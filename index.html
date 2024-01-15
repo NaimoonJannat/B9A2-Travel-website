@@ -35,10 +35,16 @@
                 <div class="where-to-form">
                     <form action="">
                         <input type="text" placeholder="Where go">
-                        <input type="text" placeholder="When">
-                        <i class="fa-solid fa-circle-chevron-down"></i>
-                        <input type="text" placeholder="Select type">
-                        <i class="fa-solid fa-circle-chevron-down"></i>
+                        <select name="When" id="dropdown">
+                            <option value="" disabled selected>Select When</option>
+                            <option value="day">Day</option>
+                            <option value="night">Night</option>
+                        </select>
+                        <select name="Select" id="dropdown">
+                            <option value="" disabled selected>Select type</option>
+                            <option value="type1">Type-1</option>
+                            <option value="type2">Type-2</option>
+                        </select>
                         <button class="primary-btn"><i class="fa-solid fa-magnifying-glass"></i> Find now </button>
                     </form>
                 </div>

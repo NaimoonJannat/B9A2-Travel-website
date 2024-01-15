@@ -110,7 +110,7 @@ nav{
     display: flex;
     justify-content: space-around;
 }
-.where-to-form input{
+.where-to-form input, #dropdown{
     padding: 1rem;
     border-radius: 8px;
     background-color: var(--secondary-color);
