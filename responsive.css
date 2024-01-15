@@ -1,4 +1,7 @@
 @media (max-width: 600px){
+
+    /* header section  */
+
     nav , .nav-menu ul{
         flex-direction: column;
     }
@@ -13,6 +16,8 @@
         gap: 1rem;
     }
 
+    /* main section starts  */
+
     .tour-blog-container{
         flex-direction: column;
     }
@@ -20,7 +25,9 @@
         font-size: 1.5rem;
     }
 
-    .destination-info-container{
+    /* Destination section  */
+
+    .destination-info-container , .perfect-place-info , .deal-container , .choose-us-container{
         width: 90%;
     }
 
@@ -32,5 +39,11 @@
     }
     .country{
         font-size: 1.2rem;
+    }
+
+    /* perfect place section  */
+
+    .perfect-place-section{
+        flex-direction: column;
     }
 }
