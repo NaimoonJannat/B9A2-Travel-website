@@ -16,4 +16,18 @@
     .tour-blog-container{
         flex-direction: column;
     }
+    .primary-title{
+        font-size: 1.5rem;
+    }
+
+    .destination-info-container{
+        width: 90%;
+    }
+
+    .grid-container-first-row , .grid-container-second-row , .grid-container-third-row{
+        grid-template-columns: 1fr;
+    }
+    .grid-item img , .grid-item{
+        height: 11rem;
+    }
 }
