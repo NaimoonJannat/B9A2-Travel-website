@@ -309,6 +309,35 @@ iframe{
     border: 3px solid var(--primary-color);
 }
 
+/* Other services section  */
+
+.other-service{
+    margin: 6rem 0rem;
+}
+
+.service-container{
+    display: flex;
+    gap: 1.3rem;
+    margin: 3rem;
+}
+#service-details{
+    margin: 2rem auto;
+    width: 45%;
+}
+.service-box{
+    width: 30%;
+    text-align: center;
+    border-radius: 16px;
+    padding: 1rem;
+    box-shadow: 18px 16px 44px -15px rgba(0,0,0,0.57);
+
+}
+.service-box>img{
+    border-radius: 16px;
+    border: 2px dashed var(--primary-color);
+    width: 80%;
+}
+
 /* Newsletter section  */
 .newsletter{
     display: flex;

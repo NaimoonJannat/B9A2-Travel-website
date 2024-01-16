@@ -79,6 +79,35 @@
         height: 80%;
     }
 
+    /* Other services section  */
+    #service-details{
+        width: 90%;
+    }
+
+    .other-service{
+        margin: 2.5rem 0rem;
+    }
+    
+    .service-container{
+        flex-direction: column;
+        margin: 1rem;
+        width: 90%;
+        align-items: center;
+    }
+    .service-box{
+        width: 90%;
+        text-align: center;
+        border-radius: 16px;
+        padding: 1rem;
+        box-shadow: 18px 16px 44px -15px rgba(0,0,0,0.57);
+    
+    }
+    .service-box>img{
+        border-radius: 16px;
+        border: 2px dashed var(--primary-color);
+        width: 80%;
+    }
+
     /* newsletter section  */
     .newsletter{
         flex-direction: column;
