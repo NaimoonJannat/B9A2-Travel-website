@@ -54,9 +54,16 @@ nav{
     align-items: center;
     color: var(--title-black);
 } 
+.nav-menu{
+    display: flex;
+    justify-content: flex-end;
+}
 
 .nav-logo-box img{
-    width: 40%;
+    width: 30%;
+}
+.fa-bars{
+    display: none;
 }
 .nav-title{
     font-family: 'Marck Script', cursive;
@@ -211,8 +218,8 @@ nav{
     padding: 2rem 3.5rem 2rem 2rem;
 }
 #blue-banner{
-    border: 1px solid rgba(41, 206, 246, 0.20);
-    background: rgba(41, 206, 246, 0.05);
+    border: 1px solid rgba(41, 205, 246, 0.526);
+    background: rgba(56, 206, 244, 0.301);
 }
 .choose-title{
     font-size: 1.6rem;
@@ -302,6 +309,55 @@ iframe{
     border: 3px solid var(--primary-color);
 }
 
+/* Newsletter section  */
+.newsletter{
+    display: flex;
+    gap: 1.3rem;
+}
+.newsletter-form{
+    padding: 40px;
+    width: 40%;
+    border: 2px solid var(--primary-color);
+    border-radius: 16px;
+}
+.newsletter-form > form > input{
+    padding: 1.3rem;
+    border-radius: 8px;
+    background-color: rgba(19, 19, 24, 0.05);
+    border: none;
+    width: 90%;
+    margin: 0.5rem auto;
+}
+#subscribe-btn{
+    margin-top: 0.5rem;
+    padding: 1.3rem;
+    width: 100%;
+}
+.scenery{
+    position: relative;
+}
+
+.discount{
+    border-radius: 16px;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 2.3rem;
+    position: absolute;
+    left: 400px;
+    bottom: 60px;
+    transform: rotate(-30deg);
+}
+.discount-text{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.web-link{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+
 /* <!-- Main section ends here  --> */
 
 
@@ -322,17 +378,28 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     margin-bottom: 3.2rem;
 }
-
-.foot-box img{
-    width: 20%;
+.fa-facebook{
+    color: blue;
+}
+.fa-instagram{
+    color: coral;
+}
+.fa-github{
+    color: #171515;
 }
 
-.foot-box hr{
+
+.foot-box img{
+    width: 30%;
+}
+
+.line{
     height: 1px;
     border: none;
     background: rgba(19, 19, 24, 0.10);
+    margin-top: 0.5rem;
 }
 /* <!-- Footer section ends here  --> */
