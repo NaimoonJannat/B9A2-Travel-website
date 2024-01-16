@@ -310,11 +310,10 @@ iframe{
 footer{
     background: rgba(19, 19, 24, 0.05);
     text-align: center;
-    padding: 100px;
+    padding: 6.25rem;
 }
 
 .foot-box{
-    max-width: 1440px;
     width: 45%;
     margin: 0px auto;
 }

@@ -71,4 +71,12 @@
         width: 95%;
         height: 80%;
     }
+
+    /* footer section  */
+
+    footer{
+        padding: 1rem;
+    }
+    .foot-box{
+        width: 80%;
 }
