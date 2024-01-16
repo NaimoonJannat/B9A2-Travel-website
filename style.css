@@ -228,6 +228,9 @@ nav{
 }
 
 /* <!-- deals-section  --> */
+.deal-section{
+    text-align: center;
+}
 
 .deal-banner{
     background-repeat: no-repeat;
@@ -235,6 +238,23 @@ nav{
     background-position: center;
     border-radius: 16px;
     margin-bottom: 1.3rem;
+    text-align: left;
+}
+.deal-icon-box{
+    display: flex;
+    gap: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+.icon-box-two{
+    display: flex;
+    gap: 1.3rem;
+}
+.icon-info{
+    font-size: 1rem;
+    color: var(--info-grey);
+}
+.icon-info > i{
+    color: var(--primary-color);
 }
 .deals{
     width: 50%;
@@ -243,24 +263,24 @@ nav{
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(1px);
-    border-radius: 16px;
 }
 .deal-price{
     color: var(--primary-color);
     font-size: 1.25rem;
     margin-bottom: 1.3rem;
+    font-weight: 800;
 }
 #deal-one{
     background-image: url(./Images/vacation.png);
-    padding: 3rem 0rem 3rem 33.5rem;
+    padding: 3rem 0rem 3rem 34rem;
 }
 #deal-two{
     background-image: url(./Images/vacation2.png);
-    padding: 3rem 33.5rem 3rem 3rem ;
+    padding: 3rem 30rem 3rem 3rem ;
 }
 #deal-three{
     background-image: url(./Images/vacation.png);
-    padding: 3rem 0rem 3rem 33.5rem;
+    padding: 3rem 0rem 3rem 34rem;
 }
 
 /* Perfect place section  */

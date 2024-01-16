@@ -50,6 +50,18 @@
         width: 80%;
     }
 
+    /* Deal section  */
+    #deal-one , #deal-two , #deal-three {
+        padding: 20rem 2rem 1rem;
+    }
+    .deals{
+        width: 80%; 
+        padding: 2rem;
+    }
+    .deal-icon-box{
+        flex-direction: column;
+    }
+
     /* perfect place section  */
 
     .perfect-place-section{
@@ -57,6 +69,6 @@
     }
     iframe{
         width: 95%;
-        height: auto;
+        height: 80%;
     }
 }
