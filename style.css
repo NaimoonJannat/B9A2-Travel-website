@@ -199,6 +199,34 @@ nav{
 
 /* <!-- Choose us section  --> */
 
+.choose-box-one{
+    display: flex;
+    gap: 1.3rem;
+
+}
+.choose-banner{
+    width: 40%;
+    border-radius: 16px;
+    border: 1px solid #eb4d4d8e;
+    background: #e17f7f3f;
+    padding: 2rem 3.5rem 2rem 2rem;
+}
+#blue-banner{
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.choose-title{
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: var(--title-black);
+}
+.choose-box-two{
+    margin: 1.3rem auto 6.2rem;
+}
+#centered-banner{
+    margin: 0 auto;
+}
+
 /* <!-- deals-section  --> */
 
 /* Perfect place section  */

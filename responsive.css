@@ -41,9 +41,22 @@
         font-size: 1.2rem;
     }
 
+    /* Choose us section  */
+
+    .choose-box-one{
+        flex-direction: column;
+    }
+    .choose-banner{
+        width: 80%;
+    }
+
     /* perfect place section  */
 
     .perfect-place-section{
         flex-direction: column;
+    }
+    iframe{
+        width: 95%;
+        height: auto;
     }
 }
