@@ -26,6 +26,10 @@ body{
     font-size: 1rem;
     padding: 16px 34px;
     border: none;
+    transform: color 0.3s;
+}
+.primary-btn:hover {
+    background-color: #f84d4db7;
 }
 .primary-title{
     color: var(--title-black);
