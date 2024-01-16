@@ -27,7 +27,7 @@
 
     /* Destination section  */
 
-    .destination-info-container , .perfect-place-info , .deal-container , .choose-us-container{
+    .destination-info-container , .perfect-place-info , .deal-details , .choose-us-container{
         width: 90%;
     }
 
